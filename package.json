@@ -1,0 +1,19 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "To learn how to use graphql",
+  "main": "server.js",
+  "repository": "https://github.com/gabrr/graphql",
+  "author": "gabrr",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.9.13",
+    "nodemon": "^2.0.3"
+  }
+}
